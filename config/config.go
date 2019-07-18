@@ -40,7 +40,7 @@ func Init() error {
 func Config() error {
 	viper.AddConfigPath("conf")
 	viper.SetConfigFile("config")
-	if err := viper.ReadConfig; err != nil {
+	if err := viper.ReadConfig(); err != nil {
 		return err
 	}
 

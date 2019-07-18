@@ -2,6 +2,6 @@ mysql:
   #最大空闲连接数
   max_idle_conns:50
   #连接
-  source_name:root:root#tcp(127.0.0.1:3306)/myApi?paraseTime = true&charset = utf8&loc=local
+  source_name:root:root#tcp(127.0.0.1:3306)/myApi?parseTime = true&charset = utf8&loc=local
   #http绑定端口
   addr:127.0.0.1:8081
